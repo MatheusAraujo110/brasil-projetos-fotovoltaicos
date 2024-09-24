@@ -633,6 +633,11 @@ footer {
 }
 
 @media (max-width:820px) {
+    .fundo {
+        margin-left: -10rem;
+        width: 112vh;
+    }
+
     .div-principal {
         margin-top: -19rem;
     }
@@ -660,6 +665,10 @@ footer {
 }
 
 @media (max-width:769px) {
+    .fundo {
+        width: 106vh;
+    }
+
     p {
         font-size: 25px;
         margin-left: 2rem;
