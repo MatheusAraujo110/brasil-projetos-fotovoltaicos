@@ -188,6 +188,19 @@ p {
     opacity: 0.6;
 }
 
+.li {
+    text-align: center;
+    margin-top: 5rem;
+    font-weight: 800;
+    color: #ffe80f;
+    font-size: 2rem;
+    font-style: italic;
+
+    & li {
+        margin: 5rem;
+    }
+}
+
 .title {
     font-size: 2.6rem;
     color: #088018;
@@ -677,6 +690,10 @@ footer {
         font-weight: 900;
     }
 
+    .li {
+        font-size: 1.5rem;
+    }
+
     .button-ctt {
         margin-left: 14rem;
     }
@@ -849,6 +866,10 @@ footer {
 
     .mobile-menu {
         display: none;
+    }
+
+    .li {
+        font-size: 1.4rem;
     }
 
     .sobre-p-2 {
